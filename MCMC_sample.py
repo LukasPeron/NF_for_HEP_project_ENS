@@ -1,8 +1,10 @@
 import numpy as np
 import matplotlib
-matplotlib.rcParams.update({'font.size': 20})
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
+
+# Update matplotlib's font size for better readability
+matplotlib.rcParams.update({'font.size': 20})
 
 def target_distribution_2d(x, y, mu1, sigma1, mu2, sigma2, distance):
     """
